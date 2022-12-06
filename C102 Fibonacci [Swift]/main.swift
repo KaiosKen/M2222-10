@@ -16,7 +16,7 @@ func fib(int: Int) -> Int {
         return 1
     }
     else{
-        let result = fib(int: int-1) + fib(int: int-2)
+        let result = fib(int: int-1) + fib(int: int-2) // Since the number is more than 2, we calculate it's place in the fibonacci sequence.
         print("Non-terminal case, returning \(result).")       
         return result
      }
