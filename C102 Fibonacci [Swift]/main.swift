@@ -11,6 +11,7 @@ let n = 7
 func fib(int: Int) -> Int {
     print("Calculating fibonacci(\(int))...")
     if(int <= 2){
+        // If the number is less than or equal to 2, no calculation is necissary and thus only 1 is returned
         print("Terminal case, returning 1.")
         return 1
     }
